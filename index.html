@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peminjaman</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #000000 0%, #8b0000 50%, #ffcc00 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .dashboard-container {
+            background: rgba(255, 255, 255, 0.95); 
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            max-width: 450px;
+            width: 90%;
+        }
+
+        h1 {
+            color: #1a1a1a;
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        p {
+            color: #555555;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .btn-sheet {
+            display: block;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            padding: 14px 20px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-1 { background-color: #dc2626; color: white; } 
+        .btn-2 { background-color: #b91c1c; color: white; } 
+        .btn-3 { background-color: #333333; color: white; } 
+        .btn-4 { background-color: #1a1a1a; color: white; } 
+        .btn-5 { background-color: #eab308; color: #1a1a1a; } 
+
+        .btn-sheet:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+            filter: brightness(1.1);
+        }
+
+        .btn-sheet:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <h1>FTIK</h1>
+        <p>Dashboard</p>
+        <p>Layanan Sarana dan Prasarana</p>
+
+        <div class="button-group">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScyV_of33L8r6ScMpLpI_oPHgxrSZyTxv8X5JPYubOPKw6Vew/viewform?usp=dialog" target="_blank" class="btn-sheet btn-1">📊 Peminjaman alat dan barang</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7xQ57W_LTi_FLtBcKxC5q8Tm7VMw20FG2W8FUZr3L_uIouw/viewform?usp=dialog" target="_blank" class="btn-sheet btn-2">📈 Peminjaman ruang</a>
+            <a href="MASUKKAN_LINK_GOOGLE_SHEET_3_DI_SINI" target="_blank" class="btn-sheet btn-3">📋 Google Sheet 3</a>
+            <a href="MASUKKAN_LINK_GOOGLE_SHEET_4_DI_SINI" target="_blank" class="btn-sheet btn-4">📂 Google Sheet 4</a>
+            <a href="MASUKKAN_LINK_GOOGLE_SHEET_5_DI_SINI" target="_blank" class="btn-sheet btn-5">⚙️ Google Sheet 5</a>
+        </div>
+    </div>
+
+</body>
+</html>
